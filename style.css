@@ -3,4 +3,145 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto';
 }
+
+
+.nav,
+.hero,
+.footer{
+    background-color: #1f2937;
+}
+
+.nav,
+.hero{
+    padding:0 200px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+
+.nav-logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.hero{
+    display: flex;
+    color: #f9faf8;
+    padding-bottom: 50px;
+}
+
+.hero-text{
+    max-width: 450px;
+    padding: 30px;
+}
+
+.hero-text h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.hero-text button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(199, 199, 255);
+}
+
+.hero-text h2{
+    font-size: 18px;
+    color: #f9faf8;
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+
+.hero-img{
+    background: grey;
+    flex: 1;
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    text-align: center;
+    padding: 40px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    gap: 50px;
+
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    font-size: 10px;
+}
+
+.card div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue ;
+    border-radius: 10px;
+}
+
+.quote{
+    background: #e5e7eb;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .quote-text{
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+}
+
+.author{
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+
