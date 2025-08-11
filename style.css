@@ -145,3 +145,47 @@ ul{
 }
 
 
+.cta-card{
+    background: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    color:white;
+    align-items: center;
+}
+
+.signup{
+    padding: 60px 150px;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.text-lg{
+    font-size: 30px;
+}
+
+.text-sm{
+    font-size: 20px;
+
+}
+
+.signup button{
+    background: none;
+    border-radius: 10px ;
+    padding: 15px 30px;
+    border: 1px solid white;
+    color: white;
+}
+
+.signup p {
+    margin: 0;
+}
+
+.footer{
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
